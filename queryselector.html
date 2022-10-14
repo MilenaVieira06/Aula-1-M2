@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu título!!!</title>
+    <script>
+        function funcao()// GetElementById
+        {
+            document.querySelector("p.exemplo2").style.backgroundColor = "purple"
+            document.querySelector("h2.exemplo").style.backgroundColor = "pink"
+            document.getElementById("exe").innerHTML = "O meu texto de paragráfo!"
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+    <h2 class="exemplo">Formatando através do select</h2>
+    <p class="exemplo2">Formatando a tag p!</p>
+    <p id="exe"></p>
+    <button onclick="funcao()">Formate os elementos!!</button>
+</body>
+
+</html>
